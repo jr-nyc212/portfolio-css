@@ -52,16 +52,15 @@ h2 .secondary-text {
     padding: 100px 0;
 }
 
-.hero {background-color: #D7D7D7; }
-.about {background-color: #FFEAEA; }
-.latest-post {background-color: #EAF9FF; }
-
+.dark {
+    background-color: #252525;
+    color: #FFF;
+}
 .section-container {
     width: 570px;
     margin: 0 auto;
 
 }
-
 
 /* Links */
 
