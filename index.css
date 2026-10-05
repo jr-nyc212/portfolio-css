@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.3125rem;
     font-weight: 300;
+    margin: 0;
 }
 
 /* Heading styles */
@@ -47,15 +48,26 @@ h2 .secondary-text {
 
 /* Container and layout styles */
 
-.container {
-    width: 570px;
-    margin: auto;
+.content-container {
+    padding: 100px 0;
 }
+
+.hero {background-color: #D7D7D7; }
+.about {background-color: #FFEAEA; }
+.latest-post {background-color: #EAF9FF; }
+
+.section-container {
+    width: 570px;
+    margin: 0 auto;
+
+}
+
 
 /* Links */
 
 a {
     color: #99D930;
+    font-weight: 900;
 }
 
 a:hover {
