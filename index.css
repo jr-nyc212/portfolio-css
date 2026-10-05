@@ -10,21 +10,25 @@ body {
 
 /* Heading styles */
 
-h1, h2 {
+h1, h2, p {
     font-weight: 300;
+    margin: 0;
 }
 
 h1 {
     font-size: 3.75rem;
+    margin-bottom: 30px;
 }
 
-h2  {
+h2 {
     font-size: 2.625rem;
+    margin-bottom: 30px;
 }
 
 h3  {
     font-size: 2.25rem;
     font-weight: 900;
+    margin: 0;
 }
 
 /* Text styles */
@@ -44,6 +48,7 @@ h2 .secondary-text {
 
 .small-text {
     font-size: 1rem;
+    margin: 10px 0 20px;
 }
 
 /* Container and layout styles */
