@@ -1,3 +1,5 @@
+/* Global styles */
+
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -5,7 +7,9 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3 {
+/* Heading styles */
+
+h1, h2 {
     font-weight: 300;
 }
 
@@ -22,12 +26,38 @@ h3  {
     font-weight: 900;
 }
 
+/* Text styles */
+
+.secondary-text {
+    display: block;
+    font-weight: 900;
+}
+
+h1 .secondary-text {
+    font-size: 5rem;
+}
+
+h2 .secondary-text {
+    font-size: 3.75rem; 
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+/* Container and layout styles */
+
 .container {
     width: 570px;
     margin: auto;
 }
 
-.author {
-    font-size: 1rem;
+/* Links */
+
+a {
+    color: #99D930;
 }
 
+a:hover {
+    color: #131313;
+}
