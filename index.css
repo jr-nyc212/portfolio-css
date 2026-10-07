@@ -16,12 +16,12 @@ h1, h2, p {
 }
 
 h1 {
-    font-size: 3.75rem;
+    font-size: 5rem;
     margin-bottom: 30px;
 }
 
 h2 {
-    font-size: 2.625rem;
+    font-size: 3.75rem;
     margin-bottom: 30px;
     border-top: 1px solid #C4C4C4;
     border-bottom: 1px solid #C4C4C4;
@@ -37,17 +37,13 @@ h3  {
 
 /* Text styles */
 
-.secondary-text {
-    display: block;
+.secondary-text, .name, time {
+    color: #99D930;
     font-weight: 900;
 }
 
-h1 .secondary-text {
-    font-size: 5rem;
-}
-
-h2 .secondary-text {
-    font-size: 3.75rem; 
+.secondary-text {
+    display: block;
 }
 
 .small-text {
@@ -95,4 +91,9 @@ a:hover {
 .btn:hover, .btn:focus {
     color: #fff;
     background-color: #252525;
+}
+
+.dark .btn:hover, .dark .btn:focus {
+    color: #252525;
+    background-color: #fff;
 }
